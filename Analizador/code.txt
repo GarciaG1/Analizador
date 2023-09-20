@@ -1,0 +1,54 @@
+Programa test
+{
+	public static void Main() 
+	{		
+		istr s1 = "hola";
+		ichr c1 = '3', c2;		
+		inum n1 = 0, n2 = 2, n3 = 2, x;		
+		idec d1;
+
+		x= "hola";
+				
+		
+		irepetir(n2 = 0; n2 < 10; n2++ )
+		{
+			iescribir(n2);
+		}
+		
+		ien( n1 >= 0 )
+		{
+			n1 = n3 / n2;
+		} 
+		ien otro(n1 < 10)
+		{ 
+			n1 = n2 - n3; 
+		}
+		iotro
+		{
+			iescribir("Ninguna opcion");
+		}
+		
+		ia
+		{
+			x = x + 1;
+			iescribir(x);
+		}
+		iespera(x < 5)
+		
+		iespera(n1 <= 20)
+		{
+			n1++;
+			iescribir(n1);
+		}
+		
+		ialternativa(n3)
+		{
+			iopcion 3:
+				n1 = 2 + 2;
+			itermina;
+			ipredef:
+				n1 = 10;
+			itermina;	
+		}		
+	}
+}
